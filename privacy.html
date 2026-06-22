@@ -239,7 +239,7 @@
     <div class="brand-icon">MW</div>
     <div class="header-text">
       <h1>Privacy Policy</h1>
-      <p class="header-meta">MindfulWork &nbsp;·&nbsp; Last updated: April 18, 2026</p>
+      <p class="header-meta">MindfulWork &nbsp;·&nbsp; Last updated: June 22, 2026</p>
     </div>
   </header>
 
@@ -294,7 +294,7 @@
 
   <h2>2. Data We Collect</h2>
   <p>
-    All your personal data — including focus sessions, intervention records, monitored app lists, and settings — is stored exclusively on your device using a local database (Hive). We do not upload, transmit, or share this data with any third parties.
+    All your personal data — including focus sessions, lists used for app blocking, and settings — is stored exclusively on your device using a local database (Hive). We do not upload, transmit, or share this data with any third parties.
   </p>
 
   <p>
@@ -316,12 +316,12 @@
 
   <h2>4. Optional iCloud Sync</h2>
   <p>
-    MindfulWork offers optional iCloud sync for your data. You can sync focus session statistics and intervention records via CloudKit, and sync achievement unlock state via iCloud Key-Value storage. Sync is initiated manually in Settings → iCloud Sync. You must be signed into iCloud on your device. Your data is stored in your own private iCloud account; no MindfulWork server is involved. On the iOS Simulator, the sync API may report success but real cross-device sync only works on physical devices.
+    MindfulWork offers optional iCloud sync for your data. Focus session statistics can be synced via CloudKit. Sync is initiated manually in Settings → iCloud Sync. You must be signed into iCloud on your device. Your data is stored in your own private iCloud account; no MindfulWork server is involved. On the iOS Simulator, the sync API may report success but real cross-device sync only works on physical devices.
   </p>
 
-  <h2>5. iOS Shortcuts &amp; App Monitoring</h2>
+  <h2>5. Screen Time, Family Controls &amp; on-device processing</h2>
   <p>
-    The app intervention feature uses iOS Shortcuts automation to detect when you open monitored apps. This is implemented entirely through Apple's Shortcuts framework and URL scheme. No app usage data is sent to our servers — the monitoring logic runs entirely on your device.
+    Where distraction blocking is available, MindfulWork uses Apple's Screen Time-related technologies (such as Family Controls and Managed Settings) after you authorize them in Settings. The apps or categories you choose are represented using system tokens; shielding is enforced on your device and is not uploaded to MindfulWork servers. We do not receive your browsing history or a server-side log of which apps you open.
   </p>
 
   <h2>6. Notifications</h2>
